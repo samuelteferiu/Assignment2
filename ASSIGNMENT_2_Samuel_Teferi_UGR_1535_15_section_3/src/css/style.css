@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+    
+}
+header{
+    background: linear-gradient(to right, #222922 20%, #384438 37.5%, #222922 65%);
+    color: white;
+    background-color: black;
+}
+h1{
+    font-size: 60px;
+}
+.word1{
+    color: #DB7835;
+}
+ul{
+    list-style: none;
+}
+header > ul>li>a{
+    background-color: #83BB13;
+    border-radius: 4px;
+    padding: 5px;
+    text-decoration: none;
+    font-size:12px;
+}
+
+header>ul>li>a:hover{
+    background-color: #DB7835;
+}
+h2{
+    color: green;
+}
+h3{
+    font-weight: bold;
+}
+strong{
+    color: #83BB13;
+    text-decoration: underline;
+}
+#read-more-colored{
+    color: orange;
+    text-decoration: underline;
+}
+.topfooter {
+    background-color: #222922;
+    border-bottom: 0.5px solid rgb(82, 82, 82);
+    padding: 15px 0;
+}
+.topfooter .wrapper .aboutfoot,.topfooter .wrapper article{
+    color: white;
+}
+.light{
+    color: grey;
+}
+footer>a{
+    text-decoration: none;
+    color: white;
+}
+
+.bottomfooter{
+    background-color: #222;
+
+}
+.bottomfooter p{
+    color: white;
+}
+main .row1 aside ul li a, main .row4 aside ul li a ,main .row5 aside ul li a{
+    color: black;
+    text-decoration: none;
+}
+.bottomfooter ul li a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.bottomfooter ul li a:hover{
+    text-decoration: underline;
+    color:#83BB13;
+}
+
+.bottomfooter .active{
+    color: #83BB13 !important;
+}
+.bold{
+    font-weight: bold;
+}
+
+.white-space{
+    border: 1px solid white;
+    width:450px;
+}
